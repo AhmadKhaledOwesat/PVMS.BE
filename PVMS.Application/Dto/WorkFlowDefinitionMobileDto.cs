@@ -17,5 +17,6 @@ namespace PVMS.Application.Dto
         public string NameAr { get; set; }
         public string NameOt { get; set; }
         public int Active { get; set; }
+        public Guid WorkFlowDefinitionId { get; set; }
     }
 }

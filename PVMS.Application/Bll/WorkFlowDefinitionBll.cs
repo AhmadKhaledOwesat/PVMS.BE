@@ -206,8 +206,9 @@ namespace PVMS.Application.Bll
                         .Select(x => new TicketTypeLookupDto
                         {
                             Id = x.TicketTypeId,
-                            NameAr = x.TicketType.NameAr,
+                             NameAr = x.TicketType.NameAr,
                             NameOt = x.TicketType.NameOt,
+                            WorkFlowDefinitionId = d.Id,
                             Active = x.TicketType.Active
                         })
                         .GroupBy(x => x.Id)
