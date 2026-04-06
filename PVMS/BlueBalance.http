@@ -1,0 +1,6 @@
+@PVMS_HostAddress = http://localhost:5048
+
+GET {{PVMS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

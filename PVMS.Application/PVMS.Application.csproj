@@ -1,0 +1,82 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bll\AppUserAddressBll.cs" />
+    <Compile Remove="Bll\AppUserStatusBll.cs" />
+    <Compile Remove="Bll\FaqBll.cs" />
+    <Compile Remove="Bll\GovernorateBll.cs" />
+    <Compile Remove="Bll\InquiryBll.cs" />
+    <Compile Remove="Bll\MainServiceBll.cs" />
+    <Compile Remove="Bll\MainSliderBll.cs" />
+    <Compile Remove="Bll\MainSubServiceMappingBll.cs" />
+    <Compile Remove="Bll\RateBll.cs" />
+    <Compile Remove="Bll\RequestStatusBll.cs" />
+    <Compile Remove="Bll\ServiceRequestBll.cs" />
+    <Compile Remove="Bll\ServiceRequestResponseBll.cs" />
+    <Compile Remove="Bll\SubServiceBll.cs" />
+    <Compile Remove="Bll\SubServiceSliderBll.cs" />
+    <Compile Remove="Bll\TechnicianServiceBll.cs" />
+    <Compile Remove="Bll\TutorialBll.cs" />
+    <Compile Remove="Dto\AppUserAddressDto.cs" />
+    <Compile Remove="Dto\AppUserStatusDto.cs" />
+    <Compile Remove="Dto\FaqDto.cs" />
+    <Compile Remove="Dto\GovernorateDto.cs" />
+    <Compile Remove="Dto\InquiryDto.cs" />
+    <Compile Remove="Dto\MainServiceDto.cs" />
+    <Compile Remove="Dto\MainSliderDto.cs" />
+    <Compile Remove="Dto\MainSubServiceMappingDto.cs" />
+    <Compile Remove="Dto\RateDto.cs" />
+    <Compile Remove="Dto\RequestStatusDto.cs" />
+    <Compile Remove="Dto\ServiceRequestDto.cs" />
+    <Compile Remove="Dto\ServiceRequestResponseDto.cs" />
+    <Compile Remove="Dto\SubServiceDto.cs" />
+    <Compile Remove="Dto\SubServiceSliderDto.cs" />
+    <Compile Remove="Dto\TechnicianServiceDto.cs" />
+    <Compile Remove="Dto\TutorialDto.cs" />
+    <Compile Remove="Interfaces\IAppUserAddressBll.cs" />
+    <Compile Remove="Interfaces\IAppUserStatusBll.cs" />
+    <Compile Remove="Interfaces\IFaqBll.cs" />
+    <Compile Remove="Interfaces\IGovernorateBll.cs" />
+    <Compile Remove="Interfaces\IInquiryBll.cs" />
+    <Compile Remove="Interfaces\IMainServiceBll.cs" />
+    <Compile Remove="Interfaces\IMainSliderBll.cs" />
+    <Compile Remove="Interfaces\IMainSubServiceMappingBll.cs" />
+    <Compile Remove="Interfaces\IRateBll.cs" />
+    <Compile Remove="Interfaces\IRequestStatusBll.cs" />
+    <Compile Remove="Interfaces\IServiceRequestBll.cs" />
+    <Compile Remove="Interfaces\IServiceRequestResponseBll.cs" />
+    <Compile Remove="Interfaces\ISubServiceBll.cs.cs" />
+    <Compile Remove="Interfaces\ISubServiceSliderBll.cs" />
+    <Compile Remove="Interfaces\ITechnicianServiceBll.cs" />
+    <Compile Remove="Interfaces\ITutorialBll.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
+    <PackageReference Include="Google.Apis.FirebaseCloudMessaging.v1" Version="1.69.0.3722" />
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.10.0" />
+    <PackageReference Include="MailKit" Version="4.13.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.7" />
+    <PackageReference Include="MimeKit" Version="4.13.0" />
+    <PackageReference Include="QRCoder" Version="1.7.0" />
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.29" />
+    <PackageReference Include="RestSharp" Version="113.0.0" />
+    <PackageReference Include="Scrutor" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PVMS.Domain\PVMS.Domain.csproj" />
+    <ProjectReference Include="..\PVMS.Infrastructure\PVMS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\bin\Debug\net9.0\DcpTracker.Domain.deps.json
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\bin\Debug\net9.0\DcpTracker.Domain.dll
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\bin\Debug\net9.0\DcpTracker.Domain.pdb
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.csproj.AssemblyReference.cache
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.AssemblyInfo.cs
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.sourcelink.json
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.dll
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\refint\DcpTracker.Domain.dll
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\DcpTracker.Domain.pdb
+C:\Users\ahmad\Source\Repos\cleanCode\DcpTracker.Domain\obj\Debug\net9.0\ref\DcpTracker.Domain.dll

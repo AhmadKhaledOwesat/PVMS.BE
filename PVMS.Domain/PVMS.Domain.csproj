@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\AppUserAddress.cs" />
+    <Compile Remove="Entities\AppUserStatus.cs" />
+    <Compile Remove="Entities\Faq.cs" />
+    <Compile Remove="Entities\Filters\AppUserAddressFilter.cs" />
+    <Compile Remove="Entities\Filters\AppUserStatusFilter.cs" />
+    <Compile Remove="Entities\Filters\FaqFilter.cs" />
+    <Compile Remove="Entities\Filters\GovernorateFilter.cs" />
+    <Compile Remove="Entities\Filters\InquiryFilter.cs" />
+    <Compile Remove="Entities\Filters\MainServiceFilter.cs" />
+    <Compile Remove="Entities\Filters\MainSilderFilter.cs" />
+    <Compile Remove="Entities\Filters\MainSubServiceMappingFilter.cs" />
+    <Compile Remove="Entities\Filters\RateFilter.cs" />
+    <Compile Remove="Entities\Filters\RequestStatusFilter.cs" />
+    <Compile Remove="Entities\Filters\ServiceRequestFilter.cs" />
+    <Compile Remove="Entities\Filters\ServiceRequestResponse.cs" />
+    <Compile Remove="Entities\Filters\SubServiceFilter.cs" />
+    <Compile Remove="Entities\Filters\SubServiceSliderFilter.cs" />
+    <Compile Remove="Entities\Filters\TechnicianServiceFilter.cs" />
+    <Compile Remove="Entities\Filters\TutorialFilter.cs" />
+    <Compile Remove="Entities\Governorate.cs" />
+    <Compile Remove="Entities\Inquiry.cs" />
+    <Compile Remove="Entities\MainService.cs" />
+    <Compile Remove="Entities\MainSlider.cs" />
+    <Compile Remove="Entities\MainSubServiceMapping.cs" />
+    <Compile Remove="Entities\Rate.cs" />
+    <Compile Remove="Entities\RequestStatus.cs" />
+    <Compile Remove="Entities\ServiceRequest.cs" />
+    <Compile Remove="Entities\ServiceRequestResponse.cs" />
+    <Compile Remove="Entities\SubService.cs" />
+    <Compile Remove="Entities\SubServiceSlider.cs" />
+    <Compile Remove="Entities\TechnicianService.cs" />
+    <Compile Remove="Entities\Tutorial.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite" Version="9.0.8" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AppUserAddressController.cs" />
+    <Compile Remove="Controllers\AppUserStatusController.cs" />
+    <Compile Remove="Controllers\FaqController.cs" />
+    <Compile Remove="Controllers\GovernorateController.cs" />
+    <Compile Remove="Controllers\InquiryController.cs" />
+    <Compile Remove="Controllers\MainServiceController.cs" />
+    <Compile Remove="Controllers\MainSliderController.cs" />
+    <Compile Remove="Controllers\MainSubServiceMappingController.cs" />
+    <Compile Remove="Controllers\RateController.cs" />
+    <Compile Remove="Controllers\RequestStatusController.cs" />
+    <Compile Remove="Controllers\ServiceRequestController.cs" />
+    <Compile Remove="Controllers\ServiceRequestResponseController.cs" />
+    <Compile Remove="Controllers\SubServiceController.cs" />
+    <Compile Remove="Controllers\SubServiceSliderController.cs" />
+    <Compile Remove="Controllers\TechnicianServiceController.cs" />
+    <Compile Remove="Controllers\TutorialController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NSwag.Generation" Version="14.4.0" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PVMS.Application\PVMS.Application.csproj" />
+    <ProjectReference Include="..\PVMS.Domain\PVMS.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+C:\Projects\MobCentra.BE\MobCentra.Domain\bin\Release\net9.0\MobCentra.Domain.deps.json
+C:\Projects\MobCentra.BE\MobCentra.Domain\bin\Release\net9.0\MobCentra.Domain.dll
+C:\Projects\MobCentra.BE\MobCentra.Domain\bin\Release\net9.0\MobCentra.Domain.pdb
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.csproj.AssemblyReference.cache
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.AssemblyInfoInputs.cache
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.AssemblyInfo.cs
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.sourcelink.json
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.dll
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\refint\MobCentra.Domain.dll
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\MobCentra.Domain.pdb
+C:\Projects\MobCentra.BE\MobCentra.Domain\obj\Release\net9.0\ref\MobCentra.Domain.dll
